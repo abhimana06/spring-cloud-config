@@ -6,6 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
+@RequestMapping("/cloudConfig")
 public class SpringCloudConfigServerApplication {
 
 	public static void main(String[] args) {
