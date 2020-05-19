@@ -1,0 +1,18 @@
+---
+
+my:
+    list:
+          Values: one, two, three from configServer
+  
+
+
+
+db:
+   values: "{dbNameString:'MySQL', userName:'abhi', password:'1234'}"
+   name: mySql-test configServer
+   host: 129.0.0.0
+   port: 2400
+
+management.endpoints.web.exposure.include: "*"
+
+

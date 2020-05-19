@@ -1,0 +1,5 @@
+---
+  
+my:
+    password : ${random.name}
+    greetings: Hello Abhi from Spring boot DYNAMIC CHANGES
